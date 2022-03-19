@@ -76,6 +76,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B1A4A41E27E62509006FEE90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1B8152727E008A30073FF01 /* LaunchScreen.storyboard */,
+				B1B8152527E008A30073FF01 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B1A4A42227E62581006FEE90 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B1B8151C27E008A20073FF01 /* AppDelegate.swift */,
+				B1B8151E27E008A20073FF01 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B1A4A42627E6259A006FEE90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1A4A42727E625B5006FEE90 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B1A4A42827E625D8006FEE90 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B1B8151027E008A20073FF01 = {
 			isa = PBXGroup;
 			children = (
@@ -99,11 +138,12 @@
 		B1B8151B27E008A20073FF01 /* SpaceX */ = {
 			isa = PBXGroup;
 			children = (
-				B1B8151C27E008A20073FF01 /* AppDelegate.swift */,
-				B1B8151E27E008A20073FF01 /* SceneDelegate.swift */,
+				B1A4A42827E625D8006FEE90 /* ViewModel */,
+				B1A4A42727E625B5006FEE90 /* Networking */,
+				B1A4A42627E6259A006FEE90 /* Model */,
+				B1A4A42227E62581006FEE90 /* AppDelegate */,
+				B1A4A41E27E62509006FEE90 /* Resources */,
 				B1B8155227E008FB0073FF01 /* Screams */,
-				B1B8152527E008A30073FF01 /* Assets.xcassets */,
-				B1B8152727E008A30073FF01 /* LaunchScreen.storyboard */,
 				B1B8152A27E008A30073FF01 /* Info.plist */,
 			);
 			path = SpaceX;
