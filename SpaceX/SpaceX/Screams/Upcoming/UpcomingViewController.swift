@@ -8,9 +8,20 @@
 import UIKit
 
 class UpcomingViewController: UIViewController {
-
+    //MARK: - Variable
+    
+    //MARK: - View
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .black
+        setupView()
+        setupConstrains()
+    }
+    
+    fileprivate func setupView() {
+        
+    }
+    
+    fileprivate func setupConstrains() {
+        
     }
 }
